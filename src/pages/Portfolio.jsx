@@ -1,4 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
+import  codeQuiz from "../assets/images/projects/code-quiz.png"
+import  passwordGenerator from "../assets/images/projects/password-generator.png"
+import petsRUs from "../assets/images/projects/pets-r-us.jpg"
+import  textEditor from "../assets/images/projects/text-editor.png"
+import weatherDashboard from "../assets/images/projects/weather-dashboard.png"
+import  workdayScheduler from "../assets/images/projects/workday-scheduler.png"
+
 function Portfolio() {
 
     // const [gitRepos, setGitRepos] = useState([]);
@@ -19,66 +26,64 @@ function Portfolio() {
     ////////////
     return (
         <>
-            <section id="projects" class="info">
-                <section class="project">
+        <h2>Portfolio</h2>
+            <section id="projects" className="container-fluid d-md-flex flex-wrap">
+                <div className='row flex-wrap'>
+                <section className="card col-md-6 p-1 bg-dark">
                     <a href="https://github.com/KDeLaria/weather-dashboard" target="_blank">
-                        <img class="showcase-project"
-                            src="https://kdelaria.github.io/weather-dashboard/assets/images/screenshot.png" alt="weather-dashboard" />
-                        <section class="project-label">
+                        <img src={weatherDashboard} alt="weather-dashboard" className='col-12' />
+                        <section className="project-label">
                             <h3>Weather Dashboard</h3>
                             HTML/CSS/Javascript
                         </section>
                     </a>
                 </section>
-                <section class="project">
+                <section className="card col-md-6 p-1 bg-dark">
                     <a href="https://github.com/KDeLaria/code-quiz" target="_blank">
-                        <img class="project" src="https://kdelaria.github.io/code-quiz/assets/images/screenshot.png" alt="code-quiz" />
-                        <section class="project-label">
+                        <img src={codeQuiz} alt="code-quiz" className='col-12' />
+                        <section className="project-label">
                             <h3>Code Quiz</h3>
                             HTML/CSS/Javascript
                         </section>
                     </a>
                 </section>
-                <section class="project">
-                    <a href="https://github.com/KDeLaria/note-taker" target="_blank">
-                        <img class="project" src="https://kdelaria.github.io/note-taker/images/screenshot.png" alt="note-taker" />
-                        <section class="project-label">
-                            <h3>Note Taker</h3>
-                            HTML/CSS/Javascript/Express
+                <section className="card col-md-6 p-1 bg-dark">
+                    <a href="https://github.com/ag-bootcamp-umn/pets-r-us" target="_blank">
+                        <img src={petsRUs} alt="note-taker" className='col-12' />
+                        <section className="project-label">
+                            <h3>Pets R Us</h3>
+                            Express/Sequelize/MySQL/Handlebars
                         </section>
                     </a>
                 </section>
-                <section class="project">
+                <section className="card col-md-6 p-1 bg-dark">
                     <a href="https://github.com/KDeLaria/work-day-scheduler" target="_blank">
-                        <img class="project" 
-                        src="https://kdelaria.github.io/work-day-scheduler/assets/images/screenshot.png" 
-                        alt="work-day-scheduler" />
-                        <section class="project-label">
+                        <img src={workdayScheduler} alt="work-day-scheduler" className='col-12' />
+                        <section className="project-label">
                             <h3>Work Day Scheduler</h3>
                             HTML/CSS/Javascript/Bootstrap
                         </section>
                     </a>
                 </section>
-                <section class="project">
+                <section className="card col-md-6 p-1 bg-dark">
                     <a href="https://github.com/KDeLaria/text-editor" target="_blank">
-                        <img class="project" src="../assets/images/text-editor.png" 
-                        alt="text-editor" />
-                        <section class="project-label">
+                        <img src={textEditor} alt="text-editor" className='col-12' />
+                        <section className="project-label">
                             <h3>Text Editor</h3>
                             HTML/Javascript/Node.js/Express
                         </section>
                     </a>
                 </section>
-                <section class="project">
+                <section className="card col-md-6 p-1 bg-dark">
                     <a href="https://github.com/KDeLaria/password-generator" target="_blank">
-                        <img class="project" src="https://kdelaria.github.io/password-generator/assets/images/Screenshot.png" 
-                        alt="password-generator" />
-                        <section class="project-label">
+                        <img src={passwordGenerator} alt="password-generator" className='col-12' />
+                        <section className="project-label">
                             <h3>Password Generator</h3>
                             HTML/CSS/Javascript
                         </section>
                     </a>
                 </section>
+                </div>
             </section>
         </>
     );
