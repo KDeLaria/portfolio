@@ -6,16 +6,12 @@ import './App.css'
 
 function App() {
 
-const [hilighted, setHighlighted] = useState();
-
-
-
-
-
   return (
     <>
       <header className="flex-md-row d-md-flex align-items-md-end bg-secondary rounded">
-        <h1 className="col-md-6 d-md-flex align-self-md-start">Kevin DeLaria</h1>
+        <div className="col-md-6 px-md-2">
+        <h1 className="text-md-start" width="fit-content" height="fit-content" >Kevin DeLaria</h1>
+        </div>
         <nav className="col-md-6">
           <ul className="d-md-flex justify-content-md-around">
             <li className="d-md-inline-flex">

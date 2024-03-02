@@ -1,3 +1,5 @@
+import resumeFile from "../assets/docs/kevin_delaria_resume.pdf"
+
 function Resume() {
 
 
@@ -21,7 +23,10 @@ function Resume() {
                 <li>• Quizzes the user on their knowledge of basic JavaScript.</li>
                 <li>• Allows the user to save their score.</li>
                 <li>• Tools/Languages:  Visual Studio, HTML, CSS, JavaScript</li>
-            </ul>
+            </ul><br />
+            <p>Download the&nbsp;
+                <a href={resumeFile}
+                    target="_blank">resume</a>.</p>
         </>
     );
 };

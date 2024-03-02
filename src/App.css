@@ -49,6 +49,16 @@
 /* li {
   display: inline-flex;
   } */
+
+  :root {
+    --navigation-color: rgb(22, 22, 129);
+    --highlight-color: rgb(128, 171, 245);
+    --heading-color: rgb(255, 255, 255);
+    --contact-links: rgb(0,0, 255); 
+    --label-highlight: rgba(128, 171,245, .75);
+    --header-background: rgb(25, 25, 75);
+  }
+
  li a, li a:visited {
   text-decoration: none;
   }
@@ -58,21 +68,31 @@
   }
   
   a:hover {
+    filter:drop-shadow(0 0 5px var(--highlight-color));
+    color: aliceblue;
   text-decoration: underline;
   }
 
+a {
+  color: var(--highlight-color);
+}
+
+nav a:hover {
+  filter:drop-shadow(0 0 5px rgb(0, 48, 132));
+}
+
+nav a {
+  color: rgb(0, 48, 132);
+}
+
+#projects a {
+  color: var(--navigation-color);
+
+}
 
 
 
 
-  :root {
-    --heading-color: rgb(22, 22, 129);
-    --highlight-color: rgb(128, 171, 245);
-    --navigation-color: rgb(255, 255, 255);
-    --contact-links: rgb(0,0, 255); 
-    --label-highlight: rgba(128, 171,245, .75);
-    --header-background: rgb(25, 25, 75);
-  }
   .card img:hover, .showcase-project img:hover {
     border: 5px solid var(--label-highlight);
     opacity: .5;
@@ -81,11 +101,13 @@
   .project-label {
       padding: 5px;
       width: fit-content;
-      height: fit-content ;
+      height: fit-content;
       background-color: var(--label-highlight);
       position: relative;
       bottom: 74px;
-    }
+  }
+
+
 
 /* 
 :root {
