@@ -1,4 +1,4 @@
-import profileImage from "../assets/images/profile.jpeg"
+import profileImage from "../assets/images/profile.jpg"
 
 function AboutMe() {
 //height={160} width={120} 
