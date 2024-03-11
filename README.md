@@ -1,7 +1,7 @@
 # Portfolio
 
 ![Portfolio](./src/assets/images/screenshot.png)
-Visit my [portfolio]( https://kdelaria-text-editor-90cd26e67332.herokuapp.com/) website.
+Visit my [portfolio](https://kevin-delaria.netlify.app/) website.
 
 ## Description
 
