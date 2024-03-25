@@ -11,7 +11,7 @@ function AboutMe() {
             </div>
             <br />
             <section>
-                <p className="large">
+                <p className="large py-md-5">{/* remove 'py-md-5' when if content is added */}
                     I’m a good natured and dependable web developer known for using
                     critical thinking skills and a diplomatic approach to logically solving complex problems.
                     I enjoy learning and exploring new programming languages, development techniques and technologies.

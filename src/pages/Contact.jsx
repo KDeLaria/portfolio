@@ -83,7 +83,7 @@ function Contact() {
     return (
         <>
             <h2>Contact</h2><br />
-            <div className="col-md-6">
+            <div className="col-md-6 py-md-5">{/* remove 'py-md-5' when if content is added */}
                 <p>Contact Kevin  on his <a href="https://www.linkedin.com/in/kevindelaria" target="_blank">
                     <i className='fab fa-linkedin'></i> LinkedIn
                 </a>.

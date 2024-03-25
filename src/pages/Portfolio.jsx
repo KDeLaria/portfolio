@@ -29,7 +29,7 @@ function Portfolio() {
             <h2>Portfolio</h2>
             <section id="projects" className="container-fluid d-md-flex flex-wrap">
                 <div className='row flex-wrap'>
-                    <section className="col-12 col-md-6 p-1">
+                    <section className="col-12 col-md-4 p-1">
                         <a href="https://kdelaria.github.io/weather-dashboard/" target="_blank">
                             <img src={weatherDashboard} alt="weather-dashboard" className='col-12' />
                         </a>
@@ -40,7 +40,7 @@ function Portfolio() {
                             </section>
                         </a>
                     </section>
-                    <section className="col-12 col-md-6 p-1">
+                    <section className="col-12 col-md-4 p-1">
                         <a href="https://kdelaria.github.io/code-quiz/" target="_blank">
                             <img src={codeQuiz} alt="code-quiz" className='col-12' />
                         </a>
@@ -51,7 +51,7 @@ function Portfolio() {
                             </section>
                         </a>
                     </section>
-                    <section className="col-12 col-md-6 p-1">
+                    <section className="col-12 col-md-4 p-1">
                         <a href="https://petsrus-mock-charity-bba28605e28b.herokuapp.com/pets" target="_blank">
                             <img src={petsRUs} alt="note-taker" className='col-12' />
                         </a>
@@ -62,7 +62,7 @@ function Portfolio() {
                             </section>
                         </a>
                     </section>
-                    <section className="col-12 col-md-6 p-1">
+                    <section className="col-12 col-md-4 p-1">
                         <a href="https://kdelaria.github.io/work-day-scheduler/" target="_blank">
                             <img src={workdayScheduler} alt="work-day-scheduler" className='col-12' />
                         </a>
@@ -73,7 +73,7 @@ function Portfolio() {
                             </section>
                         </a>
                     </section>
-                    <section className="col-12 col-md-6 p-1">
+                    <section className="col-12 col-md-4 p-1">
                         <a href="https://kdelaria-text-editor-90cd26e67332.herokuapp.com/" target="_blank">
                             <img src={textEditor} alt="text-editor" className='col-12' />
                         </a>
@@ -84,7 +84,7 @@ function Portfolio() {
                             </section>
                         </a>
                     </section>
-                    <section className="col-12 col-md-6 p-1">
+                    <section className="col-12 col-md-4 p-1">
                         <a href="https://kdelaria.github.io/password-generator/" target="_blank">
                             <img src={passwordGenerator} alt="password-generator" className='col-12' />
                         </a>
