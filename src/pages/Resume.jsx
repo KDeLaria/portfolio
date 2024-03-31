@@ -1,4 +1,4 @@
-import resumeFile from "../assets/docs/kevin_delaria_resume.pdf"
+import resumeFile from "../assets/docs/Kevin_DeLaria_Resume.pdf"
 
 function Resume() {
 
@@ -13,16 +13,15 @@ function Resume() {
                 <b>Backend:</b> MySQL, MongoDB, Express, Node.js<br />
             </section><br />
             <h4>Projects</h4>
-            <b><a href="https://github.com/KDeLaria/weather-dashboard" target="_blank">Weather Dashboard</a> | January 11, 2024</b>
+            <b><a href="https://github.com/KDeLaria/stock-portfolio-app" target="_blank">Stock Portfolio</a> | March 13, 2024</b>
             <ul>
-                <li>• Uses the Open Weather API to retrieve the current weather.</li>
-                <li>• Tools/Languages:  Visual Studio, HTML, Bootstrap, CSS, JavaScript</li>
+                <li>• Displays news articles about businesses.</li>
+                <li>• Tools/Languages:  React, Tailwind, CSS, HTML, JavaScript</li>
             </ul><br />
-            <b><a href="https://github.com/KDeLaria/code-quiz" target="_blank">Code Quiz</a> | January 1, 2024</b>
+            <b><a href="https://github.com/ag-bootcamp-umn/pets-r-us" target="_blank">Pets R Us</a> | February 10, 2024</b>
             <ul>
-                <li>• Quizzes the user on their knowledge of basic JavaScript.</li>
-                <li>• Allows the user to save their score.</li>
-                <li>• Tools/Languages:  Visual Studio, HTML, CSS, JavaScript</li>
+                <li>• Allows the user to select a date and time to meet and adopt a selected pet.</li>
+                <li>• Tools/Languages:  Handlebars, Bootstrap, CSS, HTML, JavaScript</li>
             </ul><br />
             <p>Download the&nbsp;
                 <a href={resumeFile}
