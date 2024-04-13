@@ -1,0 +1,3 @@
+user-agent: *
+disallow: /*.pdf
+disallow: /contact-me
