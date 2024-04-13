@@ -1,6 +1,7 @@
 # Portfolio
 
-[<img src="./src/assets/images/screenshot.png">](https://kevin-delaria.netlify.app/)
+![Portfolio](./src/assets/images/screenshot.png)
+<!-- [<img src="./src/assets/images/screenshot.png">](https://kevin-delaria.netlify.app/) -->
 Visit my [portfolio](https://kevin-delaria.netlify.app/) website.
 
 ## Description
