@@ -1,4 +1,4 @@
-import resumeFile from "../assets/docs/Kevin_DeLaria_Resume.pdf"
+// import resumeFile from "../assets/docs/Kevin_DeLaria_Resume.pdf"
 
 function Resume() {
 
@@ -24,7 +24,7 @@ function Resume() {
                 <li>• Tools/Languages:  Handlebars, Bootstrap, CSS, HTML, JavaScript</li>
             </ul><br />
             <p>Download the&nbsp;
-                <a href={resumeFile}
+                <a href={"../assets/docs/Kevin_DeLaria_Resume.pdf"}
                     target="_blank">resume</a>.</p>
         </>
     );
