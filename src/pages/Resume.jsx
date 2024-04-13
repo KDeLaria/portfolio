@@ -1,4 +1,3 @@
-// import resumeFile from "../assets/docs/Kevin_DeLaria_Resume.pdf"
 
 function Resume() {
 
