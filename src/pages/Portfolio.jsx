@@ -7,30 +7,13 @@ import weatherDashboard from "../assets/images/projects/weather-dashboard.png"
 import workdayScheduler from "../assets/images/projects/workday-scheduler.png"
 
 function Portfolio() {
-
-    // const [gitRepos, setGitRepos] = useState([]);
-    // async function getGitRepos() {
-    //     const requestUrl = 'https://api.github.com/users/kdelaria/repos';
-    //     const gitResponse = await fetch(requestUrl);
-    //     setGitRepos(await gitResponse.json());
-    // }
-
-    // ////////////////////////
-    // useEffect(() => {
-    //     if (!gitRepos.length) {
-    //         getGitRepos();
-    //         console.log(gitRepos);
-
-    //     }
-    // }, [])
-    ////////////
     return (
         <>
             <h2>Portfolio</h2>
             <section id="projects" className="container-fluid d-md-flex flex-wrap">
                 <div className='row flex-wrap'>
                     <section className="col-12 col-md-4 p-1">
-                        <a href="https://stock-portfolio-app-0d5fa262dd91.herokuapp.com/" target="_blank">
+                        <a href="https://github.com/KDeLaria/stock-portfolio-app/" target="_blank">
                             <img src={stockPortfolio} alt="stock-portfolio" className='col-12' />
                         </a>
                         <a href="https://github.com/KDeLaria/stock-portfolio-app" target="_blank">
@@ -99,6 +82,6 @@ function Portfolio() {
             </section>
         </>
     );
-};
+}
 
 export default Portfolio;

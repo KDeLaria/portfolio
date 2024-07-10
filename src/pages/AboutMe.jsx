@@ -1,7 +1,7 @@
 import profileImage from "../assets/images/profile.jpg"
 
 function AboutMe() {
-//height={160} width={120} 
+//height={160} width={120}
 
     return (
         <>
@@ -11,7 +11,7 @@ function AboutMe() {
             </div>
             <br />
             <section>
-                <p className="large py-md-5">{/* remove 'py-md-5' when if content is added */}
+                <p className="large py-md-5">
                     I’m a good natured and dependable web developer known for using
                     critical thinking skills and a diplomatic approach to logically solving complex problems.
                     I enjoy learning and exploring new programming languages, development techniques and technologies.
@@ -19,6 +19,6 @@ function AboutMe() {
             </section>
         </>
     );
-};
+}
 
 export default AboutMe;
