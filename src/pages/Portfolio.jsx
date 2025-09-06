@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import codeQuiz from "../assets/images/projects/code-quiz.png"
 import passwordGenerator from "../assets/images/projects/password-generator.png"
 import petsRUs from "../assets/images/projects/pets-r-us.jpg"

@@ -12,7 +12,7 @@ function AboutMe() {
             <br />
             <section>
                 <p className="large py-md-5">
-                    I’m a good natured and dependable web developer known for using
+                    I&#39;m a good natured and dependable web developer known for using
                     critical thinking skills and a diplomatic approach to logically solving complex problems.
                     I enjoy learning and exploring new programming languages, development techniques and technologies.
                 </p>
